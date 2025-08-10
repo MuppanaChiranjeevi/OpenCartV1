@@ -6,6 +6,7 @@
       <class name="com.infosys.opencart.tests.LoginTest">
         <methods>
           <include name="verify_login_test"/>
+          <include name="setUpPages"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>

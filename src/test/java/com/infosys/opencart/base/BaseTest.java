@@ -44,6 +44,7 @@ public class BaseTest {
     @Parameters({"browser", "os"})
     public void setup(String browser, String os) {
         logger = LogManager.getLogger(this.getClass());
+        logger.info("<-----------Test Case Execution Started------------->");
         ConfigReader.loadConfig();
         String executionEnv = ConfigReader.get("execution_env");
         logger.info("Execution environment: " + executionEnv);
@@ -119,6 +120,7 @@ public class BaseTest {
             getDriver().quit();
             driver.remove();  // clean up the thread-local instance
         }
+        logger.info("<-----------Test Case Execution Finished------------->");
     }
 
     public String captureScreen(String tname) throws IOException {

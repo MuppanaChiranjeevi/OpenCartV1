@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grid Suite" thread-count="5">
+  <listeners>
+	  <listener class-name="com.infosys.opencart.utils.ExtentReportManager" />
+  </listeners>
+  <parameter name="os" value="Linux"/>
+  <test name="LinuxChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.infosys.opencart.tests.RegistrationTest"/> 
+      <class name="com.infosys.opencart.tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="LinuxFirefoxTest">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.infosys.opencart.tests.RegistrationTest"/> 
+      <class name="com.infosys.opencart.tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

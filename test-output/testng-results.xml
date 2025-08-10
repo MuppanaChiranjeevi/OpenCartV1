@@ -1,89 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-10T13:19:44 IST" name="Cross Browser Parallel Suite" finished-at="2025-08-10T13:20:26 IST" duration-ms="41987">
+  <suite started-at="2025-08-10T17:55:49 IST" name="Grid Suite" finished-at="2025-08-10T17:56:33 IST" duration-ms="43444">
     <groups>
       <group name="Master">
         <method signature="LoginTest.verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" name="verify_login_test" class="com.infosys.opencart.tests.LoginTest"/>
         <method signature="RegistrationTest.valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" name="valid_Account_registration_test" class="com.infosys.opencart.tests.RegistrationTest"/>
         <method signature="LoginTest.verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" name="verify_login_test" class="com.infosys.opencart.tests.LoginTest"/>
         <method signature="RegistrationTest.valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" name="valid_Account_registration_test" class="com.infosys.opencart.tests.RegistrationTest"/>
-        <method signature="LoginTest.verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@1199fe66]" name="verify_login_test" class="com.infosys.opencart.tests.LoginTest"/>
-        <method signature="RegistrationTest.valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@3ed242a4]" name="valid_Account_registration_test" class="com.infosys.opencart.tests.RegistrationTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
         <method signature="LoginTest.verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" name="verify_login_test" class="com.infosys.opencart.tests.LoginTest"/>
         <method signature="LoginTest.verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" name="verify_login_test" class="com.infosys.opencart.tests.LoginTest"/>
-        <method signature="LoginTest.verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@1199fe66]" name="verify_login_test" class="com.infosys.opencart.tests.LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
         <method signature="RegistrationTest.valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" name="valid_Account_registration_test" class="com.infosys.opencart.tests.RegistrationTest"/>
         <method signature="RegistrationTest.valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" name="valid_Account_registration_test" class="com.infosys.opencart.tests.RegistrationTest"/>
-        <method signature="RegistrationTest.valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@3ed242a4]" name="valid_Account_registration_test" class="com.infosys.opencart.tests.RegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-10T13:19:44 IST" name="EdgeTest" finished-at="2025-08-10T13:20:09 IST" duration-ms="25571">
+    <test started-at="2025-08-10T17:55:49 IST" name="LinuxChromeTest" finished-at="2025-08-10T17:56:02 IST" duration-ms="12643">
       <class name="com.infosys.opencart.tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.LoginTest@1199fe66]" started-at="2025-08-10T13:19:59 IST" name="setup" finished-at="2025-08-10T13:20:03 IST" duration-ms="4831" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.infosys.opencart.tests.LoginTest@1199fe66]" started-at="2025-08-10T13:20:03 IST" name="setUpPages" finished-at="2025-08-10T13:20:03 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPages -->
-        <test-method signature="verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@1199fe66]" started-at="2025-08-10T13:20:03 IST" name="verify_login_test" description="Verify that a user can login with valid credentials" finished-at="2025-08-10T13:20:09 IST" duration-ms="5603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.LoginTest@1199fe66]" started-at="2025-08-10T13:20:09 IST" name="tearDown" finished-at="2025-08-10T13:20:09 IST" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.infosys.opencart.tests.LoginTest -->
-      <class name="com.infosys.opencart.tests.RegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@3ed242a4]" started-at="2025-08-10T13:19:44 IST" name="setup" finished-at="2025-08-10T13:19:48 IST" duration-ms="4002" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@3ed242a4]" started-at="2025-08-10T13:19:48 IST" name="valid_Account_registration_test" description="Verify that a user can register with valid details" finished-at="2025-08-10T13:19:58 IST" duration-ms="9429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valid_Account_registration_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@3ed242a4]" started-at="2025-08-10T13:19:58 IST" name="tearDown" finished-at="2025-08-10T13:19:59 IST" duration-ms="855" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.infosys.opencart.tests.RegistrationTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2025-08-10T13:19:44 IST" name="ChromeTest" finished-at="2025-08-10T13:20:11 IST" duration-ms="27471">
-      <class name="com.infosys.opencart.tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T13:20:02 IST" name="setup" finished-at="2025-08-10T13:20:06 IST" duration-ms="4451" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T17:55:57 IST" name="setup" finished-at="2025-08-10T17:55:59 IST" duration-ms="1976" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,28 +30,28 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T13:20:06 IST" name="setUpPages" finished-at="2025-08-10T13:20:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T17:55:59 IST" name="setUpPages" finished-at="2025-08-10T17:55:59 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPages -->
-        <test-method signature="verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T13:20:06 IST" name="verify_login_test" description="Verify that a user can login with valid credentials" finished-at="2025-08-10T13:20:11 IST" duration-ms="4500" status="PASS">
+        <test-method signature="verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T17:55:59 IST" name="verify_login_test" description="Verify that a user can login with valid credentials" finished-at="2025-08-10T17:56:02 IST" duration-ms="2726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T13:20:11 IST" name="tearDown" finished-at="2025-08-10T13:20:11 IST" duration-ms="565" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T17:56:02 IST" name="tearDown" finished-at="2025-08-10T17:56:02 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.infosys.opencart.tests.LoginTest -->
       <class name="com.infosys.opencart.tests.RegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" started-at="2025-08-10T13:19:44 IST" name="setup" finished-at="2025-08-10T13:19:48 IST" duration-ms="4200" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" started-at="2025-08-10T17:55:50 IST" name="setup" finished-at="2025-08-10T17:55:52 IST" duration-ms="2943" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,26 +60,26 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" started-at="2025-08-10T13:19:48 IST" name="valid_Account_registration_test" description="Verify that a user can register with valid details" finished-at="2025-08-10T13:20:01 IST" duration-ms="12690" status="PASS">
+        <test-method signature="valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" started-at="2025-08-10T17:55:53 IST" name="valid_Account_registration_test" description="Verify that a user can register with valid details" finished-at="2025-08-10T17:55:57 IST" duration-ms="4243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_Account_registration_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" started-at="2025-08-10T13:20:01 IST" name="tearDown" finished-at="2025-08-10T13:20:02 IST" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" started-at="2025-08-10T17:55:57 IST" name="tearDown" finished-at="2025-08-10T17:55:57 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.infosys.opencart.tests.RegistrationTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2025-08-10T13:19:44 IST" name="FirefoxTest" finished-at="2025-08-10T13:20:26 IST" duration-ms="41987">
+    </test> <!-- LinuxChromeTest -->
+    <test started-at="2025-08-10T17:56:08 IST" name="LinuxFirefoxTest" finished-at="2025-08-10T17:56:33 IST" duration-ms="24631">
       <class name="com.infosys.opencart.tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T13:20:12 IST" name="setup" finished-at="2025-08-10T13:20:22 IST" duration-ms="9958" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T17:56:20 IST" name="setup" finished-at="2025-08-10T17:56:28 IST" duration-ms="7511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,28 +88,28 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T13:20:22 IST" name="setUpPages" finished-at="2025-08-10T13:20:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T17:56:28 IST" name="setUpPages" finished-at="2025-08-10T17:56:28 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPages -->
-        <test-method signature="verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T13:20:22 IST" name="verify_login_test" description="Verify that a user can login with valid credentials" finished-at="2025-08-10T13:20:24 IST" duration-ms="2740" status="PASS">
+        <test-method signature="verify_login_test()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T17:56:28 IST" name="verify_login_test" description="Verify that a user can login with valid credentials" finished-at="2025-08-10T17:56:32 IST" duration-ms="3689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.LoginTest@6aa3a905]" started-at="2025-08-10T13:20:24 IST" name="tearDown" finished-at="2025-08-10T13:20:26 IST" duration-ms="1536" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.LoginTest@63a270c9]" started-at="2025-08-10T17:56:32 IST" name="tearDown" finished-at="2025-08-10T17:56:33 IST" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.infosys.opencart.tests.LoginTest -->
       <class name="com.infosys.opencart.tests.RegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" started-at="2025-08-10T13:19:44 IST" name="setup" finished-at="2025-08-10T13:20:01 IST" duration-ms="16775" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" started-at="2025-08-10T17:56:08 IST" name="setup" finished-at="2025-08-10T17:56:14 IST" duration-ms="5621" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,22 +118,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" started-at="2025-08-10T13:20:01 IST" name="valid_Account_registration_test" description="Verify that a user can register with valid details" finished-at="2025-08-10T13:20:09 IST" duration-ms="8319" status="PASS">
+        <test-method signature="valid_Account_registration_test()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" started-at="2025-08-10T17:56:14 IST" name="valid_Account_registration_test" description="Verify that a user can register with valid details" finished-at="2025-08-10T17:56:18 IST" duration-ms="4087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_Account_registration_test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@4b14918a]" started-at="2025-08-10T13:20:09 IST" name="tearDown" finished-at="2025-08-10T13:20:12 IST" duration-ms="2269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.infosys.opencart.tests.RegistrationTest@5cde6747]" started-at="2025-08-10T17:56:18 IST" name="tearDown" finished-at="2025-08-10T17:56:20 IST" duration-ms="2594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.infosys.opencart.tests.RegistrationTest -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Cross Browser Parallel Suite -->
+    </test> <!-- LinuxFirefoxTest -->
+  </suite> <!-- Grid Suite -->
 </testng-results>
