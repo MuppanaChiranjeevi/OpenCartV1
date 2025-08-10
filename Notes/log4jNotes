@@ -1,0 +1,96 @@
+Logging is a key part of any test automation framework. 
+It helps track what is happening during test execution, makes debugging easier, and improves transparency 
+for test results and failures.
+The most commonly used logging library is Apache Log4j, but you can also use Java's built-in java.util.logging or SLF4J with Logback.
+Why Use Logging in Selenium Automation?
+✅ Record execution steps
+✅ Trace failures and errors
+✅ Debug issues more easily
+✅ Keep audit trails for runs
+✅ Avoid System.out.println() in production-quality code
+
+🧠 Log Levels
+Log levels define the severity or importance of a log message. 
+
+ALL	--> Logs everything. Used to turn on all logging levels. Rarely used in production.
+TRACE --> Very fine-grained details. More detailed than DEBUG. Used for tracing code execution line-by-line.
+      --> Entry/exit of methods, loop steps, variable changes. Rarely used unless deep debugging.
+DEBUG --> Detailed debug information for developers to diagnose issues.	
+      --> "Element found", "Button clicked", "Response received"
+INFO -->  General information about the flow of the application..	
+     --> "User logged in", "Test started", "Page loaded"
+WARN	 --> Something unexpected happened, but the program can still continue.	
+     --> "Element not found on first attempt", "Using fallback value"
+ERROR --> Indicates a serious issue/problem that may prevent a part of the application from working.	
+      --> "Element not clickable", "NullPointerException caught"
+FATAL --> A severe error that causes the program or test to abort.	
+      --> "Browser launch failed", "Test aborted due to missing data"
+OFF --> Turns off all logging. No logs will be shown     
+
+ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF 
+
+When you set a log level threshold, it filters out all logs below that level.
+Example: If your logger is set to INFO, it will show:
+		 INFO
+		 WARN
+		 ERROR
+		 FATAL
+🧠 Best Practices
+Use INFO for high-level test steps
+Use DEBUG for element actions or conditional logic
+Use ERROR when something goes wrong
+Use FATAL only when execution must stop
+Avoid TRACE unless you're deeply debugging
+
+🧩 Appenders in Logging (e.g., Log4j)?
+In Log4j, an Appender is a component responsible for sending log messages to a specific output destination 
+— like a file, console, database, or even an email.
+
+Logger creates the log message → Appender decides where to send it.
+
+
+<Property name="log-pattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1}:%L - %m%n</Property>
+%d{yyyy-MM-dd HH:mm:ss}	--> Timestamp of the log event (e.g., 2025-07-31 14:25:10)
+[%t] --> Thread name in square brackets (e.g., [main])
+%-5level	 --> Log level (e.g., INFO, DEBUG), left-aligned with 5 characters wide%c{1} --> Logger name, only the last part (class name) of the fully qualified name
+:%L --> Line number where the log statement occurred
+- --> Just a separator
+%m --> Log message
+%n --> New line character
+
+Example Output
+2025-07-31 14:25:10 [main] INFO  LoginPage:42 - Login successful
+
+<RollingFile name="File" 
+             fileName="${log-path}/automation.log"  
+             filePattern="${log-path}/archieve/automation-%d{MM-dd-yyyy}-%i.log.gz">
+name="File": This is the identifier for the appender. You can reference it in your logger config.
+fileName: The active log file where logs are currently written.
+filePattern: Pattern used for archived log files. 
+			 When a log is rolled over, it is renamed and compressed as:
+			 automation-07-31-2025-1.log.gz
+			 %d{MM-dd-yyyy}: current date
+			 %i: index (1, 2, 3...) to avoid filename conflicts
+			 .gz: compresses the old log files to save disk space
+
+<PatternLayout pattern="${log-pattern}"/>
+Specifies the format of each log entry (e.g., timestamp, log level, logger name, message).
+
+<Policies>
+    <TimeBasedTriggeringPolicy/>
+    <SizeBasedTriggeringPolicy size="10MB"/>
+</Policies>
+This means logs will rotate (i.e., a new file will be created and the old one archived) when:
+Time-based: At least once daily
+Size-based: If the log file grows larger than 10MB
+If either condition is met, rotation happens.
+
+<DefaultRolloverStrategy max="10"/>
+Keeps at most 10 old (archived) log files.
+Older files beyond the limit are automatically deleted
+
+✅ Summary
+Logs go into automation.log.
+When size > 10MB or a new day starts, the file is rotated.
+Old logs are saved as compressed .gz files with date + index.
+Only the latest 10 archived logs are retained to manage storage.

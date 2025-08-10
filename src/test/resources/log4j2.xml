@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Root configuration element for Log4j2 -->
+<Configuration status="INFO"> <!-- status="INFO" sets the internal log level for Log4j diagnostics -->
+
+    <!-- Define reusable properties -->
+    <Properties>
+        <!-- Directory to store log files -->
+        <Property name="log-path">./logs</Property>
+
+        <!-- Common log format pattern -->
+        <!-- Format: Date Time [Thread] LogLevel LoggerName:Line - Message -->
+        <!-- 2025-07-31 14:25:10 [main] INFO  LoginPage:42 - Login successful -->
+        <Property name="log-pattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1}:%L - %m%n</Property>
+    </Properties>
+    
+    <!-- Define where and how logs will be written -->
+    <Appenders>
+
+        <!-- Console appender: displays logs in terminal or IDE -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- Use the shared pattern defined above -->
+            <PatternLayout pattern="${log-pattern}"/>
+        </Console>
+
+        <!-- Rolling file appender: writes logs to file and rotates them -->
+        <RollingFile name="File" fileName="${log-path}/automation.log"  
+                     filePattern="${log-path}/archieve/automation-%d{MM-dd-yyyy}-%i.log.gz"> <!-- Archived format -->
+
+            <!-- Layout using the same pattern -->
+            <PatternLayout pattern="${log-pattern}"/>
+
+            <!-- Define log rollover policies -->
+            <Policies>
+                <!-- Rotate logs based on time (daily) -->
+                <TimeBasedTriggeringPolicy/>
+
+                <!-- Rotate logs if size exceeds 1MB -->
+                <SizeBasedTriggeringPolicy size="1MB"/>
+            </Policies>
+
+            <!-- Keep a maximum of 10 rolled-over log files -->
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Define loggers and link them to appenders -->
+    <Loggers>
+        <!-- Root logger: applies to all packages unless overridden -->
+        <Root level="INFO"> <!-- Log everything from INFO and above (INFO, WARN, ERROR, FATAL) -->
+            <!-- Send logs to both console and rolling file -->
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

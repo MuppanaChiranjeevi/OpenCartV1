@@ -1,0 +1,61 @@
+pom.xml is now very well-structured and suitable for a solid Selenium-TestNG automation framework. 
+
+✅ Selenium
+✅ TestNG
+✅ Apache POI (both poi and poi-ooxml)
+✅ Log4j
+✅ Extent Reports
+✅ Commons IO and Commons Lang
+✅ Maven Surefire Plugin (for testng.xml execution)
+
+
+OpenCartV1/
+│
+├── pom.xml
+├── testng.xml
+│
+├── 📁 src/
+│   ├── 📁 main/
+│   │   └── 📁 java/
+│   │       └── 📁 com/opencart/
+│   │           ├── 📁 base/
+│   │           │   └── BaseTest.java
+│   │           ├── 📁 utilities/
+│   │           │   ├── ConfigReader.java
+│   │           │   ├── ExcelUtil.java
+│   │           │   └── ExtentManager.java
+│   │           ├── 📁 listeners/
+│   │           │   └── TestListener.java
+│   │           └── 📁 pages/
+│   │               ├── LoginPage.java
+│   │               └── HomePage.java
+│   │
+│   └── 📁 resources/
+│       ├── config.properties
+│       └── log4j2.xml
+│
+├── 📁 src/
+│   └── 📁 test/
+│       └── 📁 java/
+│           └── 📁 com/opencart/tests/
+│               ├── LoginTest.java
+│               └── HomePageTest.java
+│
+└── 📁 reports/
+    └── index.html (Extent report will be generated here at runtime)
+
+--------------------------------------------------------------------------------
+src/test/java
+
+✅ Well-organized with packages:
+
+com.infosys.opencart.base: Likely contains base classes like BaseTest or DriverFactory.
+
+com.infosys.opencart.listeners: Likely has TestNG listeners (e.g., ITestListener, ISuiteListener).
+
+com.infosys.opencart.pages: For Page Object classes — well placed.
+
+com.infosys.opencart.tests: Test classes belong here — perfect.
+
+com.infosys.opencart.utils: Utility classes (Excel, Config, Screenshot, etc.) — good placement.
+

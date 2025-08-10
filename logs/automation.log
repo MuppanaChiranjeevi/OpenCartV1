@@ -1,0 +1,2010 @@
+2025-08-10 12:23:21 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\master.xml
+
+2025-08-10 12:23:22 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:23:22 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:23:22 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:23:30 [main] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:23:31 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:23:34 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:23:34 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:23:34 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:23:34 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:23:34 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:23:35 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:23:35 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:23:37 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:23:37 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:23:38 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:23:38 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:23:38 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:23:39 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:23:39 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:23:39 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:23:43 [main] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:23:43 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:23:45 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:23:45 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:23:45 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:23:46 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:23:46 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:23:46 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:23:47 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:23:47 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:23:47 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:25:17 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\master.xml
+
+2025-08-10 12:25:17 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:25:17 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:25:17 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:25:21 [main] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:25:21 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:25:25 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:25:25 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:25:25 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:25:25 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:25:25 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:25:26 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:25:26 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:25:27 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:25:27 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:25:28 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:25:28 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:25:28 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:25:29 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:25:29 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:25:29 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:25:32 [main] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:25:33 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:25:34 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:25:34 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:25:34 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:25:35 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:25:35 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:25:35 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:25:36 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:25:36 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:25:36 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:25:45 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:25:45 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:25:45 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:25:49 [main] INFO  RegistrationTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:25:50 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:25:51 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:25:51 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:25:51 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:25:51 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:25:51 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:25:52 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:25:52 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:25:53 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:25:53 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:25:54 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:25:54 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:25:54 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:25:54 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:25:54 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:25:54 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:25:55 [main] INFO  LoginTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:25:55 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:25:58 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:25:58 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:25:58 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:25:59 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:25:59 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:25:59 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:26:00 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:26:00 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:26:01 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:26:07 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:26:07 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:26:07 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:26:08 [main] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:26:09 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:26:10 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:26:10 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:26:10 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:26:10 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:26:10 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:26:11 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:26:11 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:26:12 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:26:12 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:26:13 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:26:13 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:26:13 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:26:13 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:26:13 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:26:13 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:26:14 [main] INFO  LoginTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:26:15 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:26:16 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:26:16 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:26:16 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:26:17 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:26:17 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:26:17 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:26:17 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:26:18 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:26:18 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:29:43 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowser.xml
+
+2025-08-10 12:29:43 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:29:43 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:29:43 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:29:47 [main] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:29:48 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:29:50 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:29:50 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:29:50 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:29:50 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:29:50 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:29:51 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:29:51 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:29:53 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:29:53 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:29:53 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:29:53 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:29:53 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:29:54 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:29:54 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:29:54 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:29:58 [main] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:29:58 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:30:00 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:30:00 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:30:00 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:30:03 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:30:03 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:30:03 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:30:08 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:30:10 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:30:11 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:30:20 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:30:20 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:30:20 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:30:21 [main] INFO  RegistrationTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:30:22 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:30:23 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:30:25 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:30:25 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:30:26 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:30:26 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:30:26 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:30:26 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:30:26 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:30:26 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:30:27 [main] INFO  LoginTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:30:28 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:30:29 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:30:29 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:30:29 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:30:30 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:30:30 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:30:30 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:30:31 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:30:33 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:30:33 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:30:39 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:30:39 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:30:39 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:30:42 [main] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:30:42 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:30:44 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:30:44 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:30:44 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:30:44 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:30:44 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:30:45 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:30:45 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:30:46 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:30:46 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:30:47 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:30:47 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:30:47 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:30:47 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:30:47 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:30:47 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:30:48 [main] INFO  LoginTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:30:49 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:30:52 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:30:52 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:30:52 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:30:53 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:30:53 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:30:53 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:30:54 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:30:54 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:30:55 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:32:49 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowser.xml
+
+2025-08-10 12:32:50 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:32:50 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:32:50 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:32:53 [main] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:32:54 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:32:56 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:32:58 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:32:58 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:32:58 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:32:58 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:32:59 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:33:00 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:33:00 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:33:00 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:33:03 [main] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:33:03 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:33:05 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:33:05 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:33:05 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:33:06 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:33:06 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:33:06 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:33:07 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:33:07 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:33:07 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:33:16 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:33:16 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:33:16 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:33:18 [main] INFO  RegistrationTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:33:18 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:33:19 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:33:19 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:33:19 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:33:19 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:33:19 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:33:20 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:33:20 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:33:22 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:33:22 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:33:22 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:33:22 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:33:22 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:33:23 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:33:23 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:33:23 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:33:24 [main] INFO  LoginTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:33:24 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:33:25 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:33:25 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:33:25 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:33:26 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:33:26 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:33:26 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:33:26 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:33:27 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:33:28 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:33:33 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:33:33 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:33:33 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:33:34 [main] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:33:35 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:33:36 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:33:36 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:33:36 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:33:36 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:33:36 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:33:37 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:33:37 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:33:38 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:33:38 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:33:39 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:33:39 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:33:39 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:33:39 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:33:39 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:33:39 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:33:41 [main] INFO  LoginTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:33:41 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:33:42 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:33:42 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:33:42 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:33:43 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:33:43 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:33:43 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:33:44 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:33:44 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:33:45 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:35:08 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\master.xml
+
+2025-08-10 12:35:08 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:35:08 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:35:08 [main] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:35:10 [main] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:35:10 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:35:15 [main] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:35:15 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:35:15 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:35:15 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:35:15 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:35:16 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:35:16 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:35:18 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:35:18 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:35:19 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:35:19 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:35:19 [main] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:35:19 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:35:19 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:35:19 [main] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:35:20 [main] INFO  LoginTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:35:20 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:35:22 [main] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:35:22 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:35:22 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:35:22 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:35:22 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:35:22 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:35:23 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:35:23 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:35:24 [main] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:37:38 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 12:37:39 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:37:39 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:37:39 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:37:39 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:37:39 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:37:39 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:37:39 [TestNG-tests-2] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:37:39 [TestNG-tests-1] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:37:39 [TestNG-tests-3] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:37:41 [TestNG-tests-2] INFO  RegistrationTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:37:41 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:37:42 [TestNG-tests-3] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:37:42 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:37:43 [TestNG-tests-2] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:37:43 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:37:43 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:37:43 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:37:43 [TestNG-tests-3] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:37:43 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:37:43 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:37:43 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:37:44 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:37:45 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:37:47 [TestNG-tests-1] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:37:47 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:37:50 [TestNG-tests-1] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:37:50 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:37:50 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:37:50 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:37:50 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:37:51 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:37:51 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:37:53 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:37:53 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:37:54 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:37:54 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:37:54 [TestNG-tests-1] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:37:56 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:37:56 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:37:56 [TestNG-tests-1] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:38:00 [TestNG-tests-2] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (44a8bf8db7abd59134ae048e1fc008b8)] -> xpath: (//a[normalize-space()='Register'])[1]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65356}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\CHIRAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.12:4444/ses..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a8bf8db7abd59134ae048e1fc008b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickRegister(HomePage.java:30)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:38:00 [TestNG-tests-2] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1712, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:38:00 [TestNG-tests-2] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1712, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:38:00 [TestNG-tests-2] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:38:01 [TestNG-tests-3] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (44a8bf8db7abd59134ae048e1fc008b8)] -> xpath: (//a[normalize-space()='Register'])[1]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65356}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\CHIRAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.12:4444/ses..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a8bf8db7abd59134ae048e1fc008b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickRegister(HomePage.java:30)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:38:01 [TestNG-tests-3] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1712, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:38:01 [TestNG-tests-3] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1712, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:38:01 [TestNG-tests-3] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:38:03 [TestNG-tests-1] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:38:03 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:38:06 [TestNG-tests-1] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:38:06 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:38:06 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:38:06 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:38:06 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:38:06 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:38:08 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:38:08 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:38:08 [TestNG-tests-1] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:39:25 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 12:39:26 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:39:26 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:39:26 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:39:26 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:39:26 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:39:26 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:39:26 [TestNG-tests-2] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:39:26 [TestNG-tests-1] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:39:26 [TestNG-tests-3] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:39:29 [TestNG-tests-3] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:39:29 [TestNG-tests-2] INFO  RegistrationTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:39:29 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:39:29 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:39:32 [TestNG-tests-3] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:39:32 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:39:32 [TestNG-tests-2] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:39:32 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:39:32 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:39:32 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:39:32 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:39:32 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:39:33 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:39:33 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:39:34 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:39:34 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:39:34 [TestNG-tests-1] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:39:34 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:39:34 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:39:34 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:39:37 [TestNG-tests-1] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:39:37 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:39:37 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:39:37 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:39:37 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:39:38 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:39:38 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:39:39 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:39:39 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:39:39 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:39:39 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:39:40 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:39:40 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:39:40 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:39:40 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:39:40 [TestNG-tests-3] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:39:40 [TestNG-tests-2] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:39:40 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:39:40 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:39:41 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:39:41 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:39:41 [TestNG-tests-2] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:39:41 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:39:41 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:39:41 [TestNG-tests-3] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:39:41 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:39:41 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:39:41 [TestNG-tests-1] INFO  RegistrationTest:99 - Closing the browser.
+2025-08-10 12:39:43 [TestNG-tests-3] INFO  LoginTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:39:43 [TestNG-tests-2] INFO  LoginTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:39:43 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:39:43 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:39:45 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:39:45 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:39:45 [TestNG-tests-1] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:39:45 [TestNG-tests-3] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:39:45 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:39:45 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:39:45 [TestNG-tests-2] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:39:45 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:39:45 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:39:46 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:39:46 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:39:46 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:39:46 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:39:47 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:39:47 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:39:48 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:39:48 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:39:49 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:39:49 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:39:50 [TestNG-tests-2] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:39:50 [TestNG-tests-3] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:39:52 [TestNG-tests-1] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:39:52 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:39:55 [TestNG-tests-1] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:39:55 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:39:55 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:39:55 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:39:55 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:39:55 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:39:56 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 12:39:56 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 12:39:57 [TestNG-tests-1] INFO  LoginTest:99 - Closing the browser.
+2025-08-10 12:45:22 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 12:45:23 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:45:23 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:45:23 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:45:23 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:45:23 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:45:23 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:45:23 [TestNG-tests-1] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:45:23 [TestNG-tests-2] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:45:23 [TestNG-tests-3] INFO  RegistrationTest:38 - Execution environment: remote
+2025-08-10 12:45:25 [TestNG-tests-3] INFO  RegistrationTest:77 - Remote driver started: edge on Windows
+2025-08-10 12:45:25 [TestNG-tests-2] INFO  RegistrationTest:77 - Remote driver started: chrome on Windows
+2025-08-10 12:45:25 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:45:25 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:45:26 [TestNG-tests-2] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:45:26 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:45:27 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:45:27 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:45:27 [TestNG-tests-3] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:45:27 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:45:27 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:45:27 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:45:28 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:45:29 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:45:31 [TestNG-tests-1] INFO  RegistrationTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:45:31 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:45:33 [TestNG-tests-1] INFO  RegistrationTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:45:33 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:45:33 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:45:33 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:45:33 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:45:34 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:45:34 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:45:35 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 12:45:35 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:45:36 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 12:45:36 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 12:45:36 [TestNG-tests-1] INFO  RegistrationTest:98 - Closing the browser.
+2025-08-10 12:45:37 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 12:45:37 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 12:45:37 [TestNG-tests-1] INFO  LoginTest:38 - Execution environment: remote
+2025-08-10 12:45:41 [TestNG-tests-1] INFO  LoginTest:77 - Remote driver started: firefox on Windows
+2025-08-10 12:45:41 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 12:45:43 [TestNG-tests-1] INFO  LoginTest:92 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 12:45:43 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:45:43 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:45:44 [TestNG-tests-2] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (f9ca51aae50e52643821a65e98439f9f)] -> xpath: (//a[normalize-space()='Register'])[1]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49381}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\CHIRAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.12:4444/ses..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9ca51aae50e52643821a65e98439f9f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickRegister(HomePage.java:30)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:45:44 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:45:44 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:45:44 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:45:44 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 12:45:44 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 12:45:44 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 12:45:44 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:45:44 [TestNG-tests-3] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 11 (f9ca51aae50e52643821a65e98439f9f)] -> xpath: (//a[normalize-space()='Register'])[1]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49381}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\CHIRAN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.31.12:4444/ses..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9ca51aae50e52643821a65e98439f9f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickRegister(HomePage.java:30)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:45:44 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:45:44 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:45:44 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:45:45 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:45:45 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:45:45 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 12:45:45 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 12:45:45 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 12:46:19 [TestNG-tests-1] ERROR LoginTest:45 - Login failed due to unexpected exception
+org.openqa.selenium.NoSuchWindowException: BrowsingContext does no longer exist
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, findElement {using=css selector, value=input[value='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4556)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669)
+	at java.base/java.lang.String.valueOf(String.java:4556)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.LoginPage.clickLoginbtn(LoginPage.java:33)
+	at com.infosys.opencart.tests.LoginTest.verify_login_test(LoginTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:19 [TestNG-tests-3] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, sendKeysToElement {id=71791d63-edf6-4fde-94ee-cb6cb35dd79e, value=[Ljava.lang.CharSequence;@7f3911b9}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 11 (a23e6e83-c83e-496d-a325-742b564ede95)] -> xpath: //input[@id='input-email']]
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.sendKeys(Unknown Source)
+	at com.infosys.opencart.pages.RegistrationPage.setEmail(RegistrationPage.java:45)
+	at com.infosys.opencart.pages.RegistrationPage.register(RegistrationPage.java:82)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:19 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Confirmation message not displayed.
+2025-08-10 12:46:19 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 12:46:19 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:46:19 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:46:19 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:46:19 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:46:19 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:46:19 [TestNG-tests-1] ERROR LoginTest:45 - Login failed due to unexpected exception
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, findElement {using=xpath, value=//span[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.LoginTest.verify_login_test(LoginTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:19 [TestNG-tests-2] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, findElement {using=xpath, value=//span[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:19 [TestNG-tests-3] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, findElement {using=xpath, value=//span[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:19 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 12:46:19 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 12:46:19 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 12:46:19 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 12:46:19 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 12:46:19 [TestNG-tests-2] ERROR RegistrationTest:37 - Test failed due to exception: 
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, findElement {using=xpath, value=//span[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.RegistrationTest.valid_Account_registration_test(RegistrationTest.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:19 [TestNG-tests-1] ERROR LoginTest:45 - Login failed due to unexpected exception
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a23e6e83-c83e-496d-a325-742b564ede95, findElement {using=xpath, value=//span[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10364, moz:profile: C:\Users\CHIRAN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a23e6e83-c83e-496d-a325-742b564ede95
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.infosys.opencart.utils.WaitUtil.waitForElementClickable(WaitUtil.java:21)
+	at com.infosys.opencart.pages.HomePage.clickMyAccount(HomePage.java:27)
+	at com.infosys.opencart.tests.LoginTest.verify_login_test(LoginTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-08-10 12:46:20 [TestNG-tests-3] INFO  RegistrationTest:98 - Closing the browser.
+2025-08-10 12:46:20 [TestNG-tests-1] INFO  LoginTest:98 - Closing the browser.
+2025-08-10 12:46:20 [TestNG-tests-2] INFO  RegistrationTest:98 - Closing the browser.
+2025-08-10 13:00:14 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:00:14 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:00:14 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:00:14 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:00:14 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:00:14 [TestNG-tests-2] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:00:14 [TestNG-tests-1] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:00:17 [TestNG-tests-2] INFO  RegistrationTest:82 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:00:17 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:00:21 [TestNG-tests-2] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:00:21 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:00:21 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:00:21 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:00:22 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:00:23 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:00:23 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:00:23 [TestNG-tests-1] INFO  RegistrationTest:82 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:00:23 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:00:25 [TestNG-tests-1] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:00:25 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:00:25 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:00:25 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:00:25 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:00:25 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:00:25 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:00:26 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:00:26 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:00:26 [TestNG-tests-2] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:00:26 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:00:26 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:00:27 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:00:27 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:00:27 [TestNG-tests-2] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:00:28 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:00:28 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:00:29 [TestNG-tests-2] INFO  LoginTest:82 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:00:29 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:00:29 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:00:29 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:00:29 [TestNG-tests-1] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:00:30 [TestNG-tests-2] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:00:30 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:00:30 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:00:31 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:00:31 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:00:31 [TestNG-tests-1] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:00:31 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:00:31 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:00:31 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:00:32 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:00:33 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:00:33 [TestNG-tests-2] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:00:36 [TestNG-tests-1] INFO  LoginTest:82 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:00:36 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:00:38 [TestNG-tests-1] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:00:38 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:00:38 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:00:39 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:00:39 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:00:39 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:00:40 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:00:40 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:00:40 [TestNG-tests-1] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:01:29 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:01:29 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:01:29 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:01:29 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:01:29 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:01:29 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:01:29 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:01:29 [TestNG-tests-2] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:01:29 [TestNG-tests-3] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:01:29 [TestNG-tests-1] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:01:32 [TestNG-tests-2] INFO  RegistrationTest:82 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:01:33 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:01:33 [TestNG-tests-3] INFO  RegistrationTest:82 - Started remote WebDriver: edge on Windows
+2025-08-10 13:01:33 [TestNG-tests-2] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:01:33 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:01:33 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:01:33 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:01:34 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:01:35 [TestNG-tests-3] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:01:35 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:01:35 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:01:35 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:01:35 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:01:36 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:01:37 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:01:37 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:01:38 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:01:38 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:01:41 [TestNG-tests-1] INFO  RegistrationTest:82 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:01:42 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:01:42 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:01:42 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:01:43 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:01:43 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:01:44 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:01:44 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:01:44 [TestNG-tests-2] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:01:44 [TestNG-tests-1] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:01:44 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:01:44 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:01:44 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:01:44 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:01:45 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:01:45 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:01:45 [TestNG-tests-3] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:01:45 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:01:45 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:01:45 [TestNG-tests-2] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:01:46 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:01:46 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:01:46 [TestNG-tests-3] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:01:46 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:01:46 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:01:47 [TestNG-tests-2] INFO  LoginTest:82 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:01:48 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:01:49 [TestNG-tests-3] INFO  LoginTest:82 - Started remote WebDriver: edge on Windows
+2025-08-10 13:01:49 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:01:49 [TestNG-tests-2] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:01:49 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:01:49 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:01:49 [TestNG-tests-3] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:01:49 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:01:49 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:01:49 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:01:49 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:01:51 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:01:51 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:01:51 [TestNG-tests-1] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:01:52 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:01:52 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:01:52 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:01:52 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:01:52 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:01:52 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:01:54 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:01:54 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:01:54 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:01:54 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:01:55 [TestNG-tests-2] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:01:55 [TestNG-tests-3] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:01:55 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:01:55 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:01:55 [TestNG-tests-1] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:02:01 [TestNG-tests-1] INFO  LoginTest:82 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:02:02 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:02:03 [TestNG-tests-1] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:02:04 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:02:04 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:02:04 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:02:04 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:02:04 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:02:05 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:02:05 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:02:06 [TestNG-tests-1] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:02:34 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:02:34 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:02:34 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:02:34 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:02:34 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:02:34 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:02:34 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:02:34 [TestNG-tests-1] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:02:34 [TestNG-tests-2] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:02:34 [TestNG-tests-3] INFO  RegistrationTest:41 - Execution environment: remote
+2025-08-10 13:02:37 [TestNG-tests-3] INFO  RegistrationTest:82 - Started remote WebDriver: edge on Windows
+2025-08-10 13:02:37 [TestNG-tests-2] INFO  RegistrationTest:82 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:02:38 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:02:38 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:02:38 [TestNG-tests-3] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:02:38 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:02:38 [TestNG-tests-2] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:02:38 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:02:38 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:02:38 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:02:38 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:02:39 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:02:40 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:02:41 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:02:42 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:02:42 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:02:42 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:02:42 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:02:45 [TestNG-tests-1] INFO  RegistrationTest:82 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:02:45 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:02:46 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:02:46 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:02:47 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:02:47 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:02:48 [TestNG-tests-1] INFO  RegistrationTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:02:48 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:02:48 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:02:48 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:02:48 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:02:48 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:02:49 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:02:49 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:02:49 [TestNG-tests-2] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:02:49 [TestNG-tests-3] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:02:49 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:02:50 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:02:50 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:02:50 [TestNG-tests-3] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:02:50 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:02:50 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:02:50 [TestNG-tests-2] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:02:50 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:02:50 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:02:53 [TestNG-tests-3] INFO  LoginTest:82 - Started remote WebDriver: edge on Windows
+2025-08-10 13:02:53 [TestNG-tests-2] INFO  LoginTest:82 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:02:53 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:02:53 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:02:54 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:02:54 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:02:54 [TestNG-tests-3] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:02:54 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:02:54 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:02:54 [TestNG-tests-2] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:02:54 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:02:54 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:02:55 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:02:55 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:02:55 [TestNG-tests-1] INFO  RegistrationTest:109 - Closing the browser.
+2025-08-10 13:02:56 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:02:56 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:02:56 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:02:56 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:02:57 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:02:57 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:02:58 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:02:59 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:02:59 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:02:59 [TestNG-tests-1] INFO  LoginTest:41 - Execution environment: remote
+2025-08-10 13:02:59 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:02:59 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:02:59 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:02:59 [TestNG-tests-3] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:03:00 [TestNG-tests-2] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:03:06 [TestNG-tests-1] INFO  LoginTest:82 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:03:06 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:03:08 [TestNG-tests-1] INFO  LoginTest:104 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:03:08 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:03:08 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:03:09 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:03:09 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:03:09 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:03:10 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:03:10 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:03:10 [TestNG-tests-1] INFO  LoginTest:109 - Closing the browser.
+2025-08-10 13:06:35 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowser.xml
+
+2025-08-10 13:06:35 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:06:35 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:06:35 [main] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:06:40 [main] INFO  RegistrationTest:90 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:06:40 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:06:42 [main] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:06:42 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:06:42 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:06:42 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:06:43 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:06:43 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:06:43 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:06:45 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:06:45 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:06:46 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:06:46 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:06:46 [main] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:06:47 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:06:47 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:06:47 [main] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:06:51 [main] INFO  LoginTest:90 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:06:51 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:06:52 [main] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:06:52 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:06:52 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:06:53 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:06:53 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:06:53 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:06:54 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:06:54 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:06:55 [main] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:07:05 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:07:05 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:07:05 [main] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:07:06 [main] INFO  RegistrationTest:90 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:07:07 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:07:08 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:07:10 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:07:10 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:07:11 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:07:11 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:07:11 [main] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:07:11 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:07:11 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:07:11 [main] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:07:12 [main] INFO  LoginTest:90 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:07:12 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:07:13 [main] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:07:13 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:07:13 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:07:14 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:07:14 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:07:14 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:07:15 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:07:15 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:07:16 [main] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:07:21 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:07:21 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:07:21 [main] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:07:23 [main] INFO  RegistrationTest:90 - Started remote WebDriver: edge on Windows
+2025-08-10 13:07:24 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:07:25 [main] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:07:25 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:07:25 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:07:25 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:07:25 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:07:26 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:07:26 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:07:29 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:07:29 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:07:30 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:07:30 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:07:30 [main] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:07:31 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:07:31 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:07:31 [main] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:07:32 [main] INFO  LoginTest:90 - Started remote WebDriver: edge on Windows
+2025-08-10 13:07:33 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:07:33 [main] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:07:33 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:07:33 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:07:36 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:07:36 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:07:37 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:07:38 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:07:39 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:07:40 [main] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:17:25 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:17:25 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:17:25 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:17:25 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:17:25 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:17:25 [TestNG-tests-2] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:17:25 [TestNG-tests-1] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:17:25 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:17:25 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:17:25 [TestNG-tests-3] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:17:31 [TestNG-tests-3] INFO  RegistrationTest:90 - Started remote WebDriver: edge on Windows
+2025-08-10 13:17:31 [TestNG-tests-2] INFO  RegistrationTest:90 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:17:32 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:17:32 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:17:33 [TestNG-tests-3] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:17:33 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:17:34 [TestNG-tests-2] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:17:34 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:17:34 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:17:34 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:17:34 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:17:34 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:17:36 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:17:36 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:17:38 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:17:38 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:17:39 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:17:39 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:17:44 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:17:44 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:17:44 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:17:44 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:17:45 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:17:45 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:17:45 [TestNG-tests-2] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:17:46 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:17:46 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:17:46 [TestNG-tests-3] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:17:46 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:17:46 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:17:46 [TestNG-tests-2] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:17:46 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:17:46 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:17:46 [TestNG-tests-3] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:17:47 [TestNG-tests-1] INFO  RegistrationTest:90 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:17:47 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:17:50 [TestNG-tests-2] INFO  LoginTest:90 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:17:50 [TestNG-tests-3] INFO  LoginTest:90 - Started remote WebDriver: edge on Windows
+2025-08-10 13:17:50 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:17:51 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:17:51 [TestNG-tests-2] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:17:51 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:17:51 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:17:51 [TestNG-tests-3] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:17:51 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:17:51 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:17:52 [TestNG-tests-1] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:17:52 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:17:52 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:17:52 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:17:54 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:17:57 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:17:57 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:17:58 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:17:58 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:17:58 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:17:59 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:18:00 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:18:00 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:18:00 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:18:01 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:18:02 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:18:02 [TestNG-tests-3] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:18:02 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:18:03 [TestNG-tests-2] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:18:03 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:18:03 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:18:04 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:18:04 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:18:04 [TestNG-tests-1] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:18:08 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:18:08 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:18:08 [TestNG-tests-1] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:18:13 [TestNG-tests-1] INFO  LoginTest:90 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:18:13 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:18:15 [TestNG-tests-1] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:18:15 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:18:15 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:18:16 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:18:16 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:18:16 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:18:17 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:18:17 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:18:17 [TestNG-tests-1] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:19:44 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:19:44 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:19:44 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:19:44 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:19:44 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:19:44 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:19:44 [TestNG-tests-1] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:19:44 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:19:44 [TestNG-tests-2] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:19:44 [TestNG-tests-3] INFO  RegistrationTest:49 - Execution environment: remote
+2025-08-10 13:19:48 [TestNG-tests-2] INFO  RegistrationTest:90 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:19:48 [TestNG-tests-3] INFO  RegistrationTest:90 - Started remote WebDriver: edge on Windows
+2025-08-10 13:19:48 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:19:48 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:19:48 [TestNG-tests-3] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:19:48 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:19:48 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:19:48 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:19:48 [TestNG-tests-2] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:19:48 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:19:48 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:19:48 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:19:50 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:19:50 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:19:52 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:19:52 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:19:52 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:19:52 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:19:56 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:19:56 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:19:58 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:19:58 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:19:58 [TestNG-tests-3] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:19:58 [TestNG-tests-1] INFO  RegistrationTest:90 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:19:58 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:19:59 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:19:59 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:19:59 [TestNG-tests-3] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:19:59 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:19:59 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:20:00 [TestNG-tests-3] INFO  LoginTest:90 - Started remote WebDriver: edge on Windows
+2025-08-10 13:20:01 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:20:01 [TestNG-tests-1] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:20:01 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:20:01 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:20:01 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:20:01 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:20:01 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:20:01 [TestNG-tests-2] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:20:01 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:20:02 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:20:02 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:20:02 [TestNG-tests-2] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:20:03 [TestNG-tests-2] INFO  LoginTest:90 - Started remote WebDriver: chrome on Windows
+2025-08-10 13:20:03 [TestNG-tests-3] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:20:04 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:20:04 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:20:04 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:20:05 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:20:05 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:20:05 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:20:05 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:20:06 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:20:06 [TestNG-tests-2] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:20:06 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:20:06 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:20:07 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:20:07 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:20:07 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:20:08 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:20:08 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:20:08 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:20:08 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:20:09 [TestNG-tests-3] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:20:09 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:20:09 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:20:09 [TestNG-tests-1] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:20:10 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:20:10 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:20:11 [TestNG-tests-2] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:20:12 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:20:12 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = remote]
+2025-08-10 13:20:12 [TestNG-tests-1] INFO  LoginTest:49 - Execution environment: remote
+2025-08-10 13:20:17 [TestNG-tests-1] INFO  LoginTest:90 - Started remote WebDriver: firefox on Windows
+2025-08-10 13:20:17 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:20:22 [TestNG-tests-1] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:20:22 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:20:22 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:20:22 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:20:22 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:20:23 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:20:24 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:20:24 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:20:24 [TestNG-tests-1] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:24:42 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowser.xml
+
+2025-08-10 13:24:42 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:24:42 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:24:42 [main] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:24:48 [main] INFO  RegistrationTest:98 - Started local WebDriver: firefox
+2025-08-10 13:24:48 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:24:52 [main] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:24:52 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:24:52 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:24:52 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:24:53 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:24:54 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:24:54 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:24:56 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:24:56 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:24:57 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:24:57 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:24:57 [main] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:24:58 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:24:58 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:24:58 [main] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:25:03 [main] INFO  LoginTest:98 - Started local WebDriver: firefox
+2025-08-10 13:25:03 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:25:05 [main] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:25:05 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:25:05 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:25:06 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:25:06 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:25:06 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:25:07 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:25:07 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:25:07 [main] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:25:17 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:25:17 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:25:17 [main] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:25:18 [main] INFO  RegistrationTest:98 - Started local WebDriver: chrome
+2025-08-10 13:25:18 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:25:19 [main] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:25:19 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:25:19 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:25:19 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:25:19 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:25:20 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:25:20 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:25:22 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:25:22 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:25:22 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:25:22 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:25:22 [main] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:25:22 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:25:22 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:25:22 [main] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:25:24 [main] INFO  LoginTest:98 - Started local WebDriver: chrome
+2025-08-10 13:25:24 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:25:25 [main] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:25:25 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:25:25 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:25:26 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:25:26 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:25:26 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:25:27 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:25:28 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:25:28 [main] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:25:33 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:25:33 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:25:33 [main] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:25:35 [main] INFO  RegistrationTest:98 - Started local WebDriver: edge
+2025-08-10 13:25:36 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:25:37 [main] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:25:37 [main] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:25:37 [main] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:25:37 [main] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:25:37 [main] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:25:38 [main] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:25:38 [main] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:25:39 [main] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:25:39 [main] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:25:40 [main] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:25:40 [main] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:25:40 [main] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:25:40 [main] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:25:40 [main] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:25:40 [main] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:25:42 [main] INFO  LoginTest:98 - Started local WebDriver: edge
+2025-08-10 13:25:42 [main] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:25:43 [main] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:25:43 [main] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:25:43 [main] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:25:44 [main] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:25:44 [main] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:25:44 [main] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:25:44 [main] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:25:45 [main] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:25:45 [main] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:26:34 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:26:34 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:26:34 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:26:34 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:26:34 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:26:34 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:26:34 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:26:34 [TestNG-tests-2] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:26:34 [TestNG-tests-3] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:26:34 [TestNG-tests-1] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:26:36 [TestNG-tests-3] INFO  RegistrationTest:98 - Started local WebDriver: edge
+2025-08-10 13:26:37 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:26:38 [TestNG-tests-3] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:26:38 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:26:38 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:26:38 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:26:39 [TestNG-tests-2] INFO  RegistrationTest:98 - Started local WebDriver: chrome
+2025-08-10 13:26:39 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:26:39 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:26:40 [TestNG-tests-2] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:26:40 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:26:40 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:26:40 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:26:41 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:26:41 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:26:43 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:26:44 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:26:44 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:26:46 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:26:46 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:26:46 [TestNG-tests-1] INFO  RegistrationTest:98 - Started local WebDriver: firefox
+2025-08-10 13:26:46 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:26:47 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:26:47 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:26:48 [TestNG-tests-3] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:26:48 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:26:48 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:26:48 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:26:48 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:26:48 [TestNG-tests-3] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:26:49 [TestNG-tests-1] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:26:49 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:26:49 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:26:49 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:26:49 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:26:50 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:26:50 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:26:50 [TestNG-tests-2] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:26:51 [TestNG-tests-3] INFO  LoginTest:98 - Started local WebDriver: edge
+2025-08-10 13:26:51 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:26:51 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:26:51 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:26:53 [TestNG-tests-3] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:26:53 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:26:53 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:26:53 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:26:53 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:26:53 [TestNG-tests-2] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:26:54 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:26:54 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:26:54 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:26:54 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:26:54 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:26:55 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:26:55 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:26:55 [TestNG-tests-1] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:26:55 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:26:56 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:26:56 [TestNG-tests-2] INFO  LoginTest:98 - Started local WebDriver: chrome
+2025-08-10 13:26:56 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:26:56 [TestNG-tests-3] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:26:56 [TestNG-tests-2] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:26:56 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:26:56 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:26:58 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:26:58 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:26:59 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:26:59 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:26:59 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:26:59 [TestNG-tests-1] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:27:00 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:27:00 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:27:01 [TestNG-tests-2] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:27:05 [TestNG-tests-1] INFO  LoginTest:98 - Started local WebDriver: firefox
+2025-08-10 13:27:05 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:27:07 [TestNG-tests-1] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:27:07 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:27:07 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:27:08 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:27:08 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:27:08 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:27:08 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:27:09 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:27:09 [TestNG-tests-1] INFO  LoginTest:117 - Closing the browser.
