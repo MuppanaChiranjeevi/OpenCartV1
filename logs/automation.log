@@ -2008,3 +2008,99 @@ Session ID: a23e6e83-c83e-496d-a325-742b564ede95
 2025-08-10 13:27:08 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
 2025-08-10 13:27:09 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
 2025-08-10 13:27:09 [TestNG-tests-1] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:50:17 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Chiranjeevi\Desktop\Selenium_Youtube\OpenCartV1\crossbrowserparallel.xml
+
+2025-08-10 13:50:17 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:50:17 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:50:17 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:50:17 [TestNG-tests-2] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:50:17 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:50:17 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:50:17 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:50:17 [TestNG-tests-1] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:50:17 [TestNG-tests-3] INFO  RegistrationTest:49 - Execution environment: local
+2025-08-10 13:50:22 [TestNG-tests-2] INFO  RegistrationTest:98 - Started local WebDriver: chrome
+2025-08-10 13:50:22 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:50:23 [TestNG-tests-3] INFO  RegistrationTest:98 - Started local WebDriver: edge
+2025-08-10 13:50:23 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:50:25 [TestNG-tests-3] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:50:25 [TestNG-tests-3] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:50:26 [TestNG-tests-2] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:50:26 [TestNG-tests-2] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:50:26 [TestNG-tests-3] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:50:26 [TestNG-tests-3] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:50:26 [TestNG-tests-2] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:50:26 [TestNG-tests-2] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:50:26 [TestNG-tests-2] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:50:26 [TestNG-tests-3] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:50:28 [TestNG-tests-2] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:50:28 [TestNG-tests-2] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:50:31 [TestNG-tests-3] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:50:31 [TestNG-tests-3] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:50:39 [TestNG-tests-2] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:50:39 [TestNG-tests-2] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:50:40 [TestNG-tests-3] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:50:40 [TestNG-tests-3] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:50:40 [TestNG-tests-1] INFO  RegistrationTest:98 - Started local WebDriver: firefox
+2025-08-10 13:50:40 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:50:40 [TestNG-tests-2] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:50:40 [TestNG-tests-2] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:50:41 [TestNG-tests-2] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:50:41 [TestNG-tests-3] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:50:41 [TestNG-tests-3] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:50:41 [TestNG-tests-3] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:50:42 [TestNG-tests-3] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:50:42 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:50:42 [TestNG-tests-3] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:50:42 [TestNG-tests-2] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:50:42 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:50:42 [TestNG-tests-2] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:50:43 [TestNG-tests-1] INFO  RegistrationTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:50:43 [TestNG-tests-1] INFO  RegistrationTest:16 - *********Starting Account Registration*******
+2025-08-10 13:50:43 [TestNG-tests-1] INFO  RegistrationTest:19 - Home Page Loaded
+2025-08-10 13:50:43 [TestNG-tests-1] INFO  RegistrationTest:20 - Clicking on My Account link
+2025-08-10 13:50:44 [TestNG-tests-1] INFO  RegistrationTest:22 - Clicking on Register link
+2025-08-10 13:50:45 [TestNG-tests-2] INFO  LoginTest:98 - Started local WebDriver: chrome
+2025-08-10 13:50:45 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:50:45 [TestNG-tests-3] INFO  LoginTest:98 - Started local WebDriver: edge
+2025-08-10 13:50:46 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:50:46 [TestNG-tests-2] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:50:46 [TestNG-tests-2] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:50:46 [TestNG-tests-2] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:50:48 [TestNG-tests-1] INFO  RegistrationTest:25 - Registration Page Loaded
+2025-08-10 13:50:48 [TestNG-tests-1] INFO  RegistrationTest:26 - Registering user with required details
+2025-08-10 13:50:52 [TestNG-tests-1] INFO  RegistrationTest:29 - Confirmation Message: Your Account Has Been Created!
+2025-08-10 13:50:52 [TestNG-tests-1] INFO  RegistrationTest:30 - Clicking on My Account to Logout
+2025-08-10 13:50:53 [TestNG-tests-1] INFO  RegistrationTest:33 - Validating expected confirmation message
+2025-08-10 13:50:53 [TestNG-tests-1] INFO  RegistrationTest:40 - ********* Account Registration Test Completed *********
+2025-08-10 13:50:53 [TestNG-tests-1] INFO  RegistrationTest:117 - Closing the browser.
+2025-08-10 13:50:55 [TestNG-tests-1] INFO  ConfigReader:19 - Configuration loaded successfully.
+2025-08-10 13:50:55 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [execution_env = local]
+2025-08-10 13:50:55 [TestNG-tests-1] INFO  LoginTest:49 - Execution environment: local
+2025-08-10 13:50:56 [TestNG-tests-3] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:50:56 [TestNG-tests-3] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:50:56 [TestNG-tests-3] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:50:57 [TestNG-tests-3] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:50:57 [TestNG-tests-3] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:50:58 [TestNG-tests-3] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:51:00 [TestNG-tests-2] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:51:00 [TestNG-tests-2] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:51:01 [TestNG-tests-2] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:51:02 [TestNG-tests-3] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:51:02 [TestNG-tests-3] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:51:03 [TestNG-tests-3] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:51:04 [TestNG-tests-2] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:51:04 [TestNG-tests-2] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:51:06 [TestNG-tests-2] INFO  LoginTest:117 - Closing the browser.
+2025-08-10 13:51:07 [TestNG-tests-1] INFO  LoginTest:98 - Started local WebDriver: firefox
+2025-08-10 13:51:07 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [baseURL = https://tutorialsninja.com/demo/]
+2025-08-10 13:51:09 [TestNG-tests-1] INFO  LoginTest:112 - Navigated to: https://tutorialsninja.com/demo/
+2025-08-10 13:51:09 [TestNG-tests-1] INFO  LoginTest:30 - ********Starting User Login Test *******
+2025-08-10 13:51:09 [TestNG-tests-1] INFO  LoginTest:32 - Navigating to Login Page via My Account
+2025-08-10 13:51:10 [TestNG-tests-1] INFO  LoginTest:35 - Logging in user with valid credentials
+2025-08-10 13:51:10 [TestNG-tests-1] INFO  ConfigReader:43 - Property read from config: [email = abc123@gmail.com]
+2025-08-10 13:51:10 [TestNG-tests-1] INFO  ConfigReader:41 - Property read from config: [password = ******]
+2025-08-10 13:51:12 [TestNG-tests-1] INFO  LoginTest:39 - Asserting My Account page reached after login
+2025-08-10 13:51:12 [TestNG-tests-1] INFO  LoginTest:41 - Logging out the user
+2025-08-10 13:51:12 [TestNG-tests-1] INFO  LoginTest:117 - Closing the browser.
