@@ -1,8 +1,0 @@
-# Project exclude paths
-/test-output/
-/target/
-logs/
-automation.log
-*.log
-/reports/
-/screenshots/
