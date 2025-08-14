@@ -1,2 +1,5 @@
 # Project exclude paths
+/test-output/
 /target/
+*.log
+/reports/
