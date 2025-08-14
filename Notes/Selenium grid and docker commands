@@ -1,0 +1,71 @@
+https://www.selenium.dev/downloads/
+Download Selenium Server (Grid) Latest stable version 4.34.0
+navigate to folder and open cmd 
+open cmd --> java -jar selenium-server-4.34.0.jar standalone
+java -jar selenium-server-4.34.0.jar standalone --detect-drivers true
+
+http://192.168.31.12:4444
+http://localhost:4444
+
+-------------------------------------------Docker-------------------------------------------------------
+https://www.docker.com/products/docker-desktop/
+Basic Commands
+| Command                  | Purpose                                       |
+| ------------------------ | --------------------------------------------- |
+| `docker -v`              | Show only the Docker CLI version.             |
+| `docker version`         | Show detailed version info (Client & Server). |
+| `docker-compose version` | Show Docker Compose version.                  |
+| `docker info`            | Display system-wide Docker information.       |
+| `docker --help`          | Show help for Docker commands.                |
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  bake        Build from a file
+  pull        Download an image from a registry --> docker pull <image name> --> docker pull ubuntu
+  push        Upload an image to a registry
+  images      List images --> docker images
+  login       Authenticate to a registry --> docker login
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+Exdcute one by one: 
+docker images
+docker pull <image name> --> docker pull ubuntu --> to Download an image
+docker images
+docker rmi <image id> --> docker rmi a08e551cb338 --> to delete image
+docker images
+
+Container Commands
+| Command                           | Purpose                                                                                                                      |
+| ---------------- ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| docker ps                         | Lists all **running** containers.                                                                                            |
+| docker ps -a                      | Lists **all** containers (running and stopped).                                                                              |
+| docker run <image>                | Creates and starts a new container from the specified image. Example: `docker run ubuntu`.                                   |
+| docker run -it ubuntu             | Creates and starts a new Ubuntu container **interactively** with a terminal session (`-i` = interactive, `-t` = pseudo-TTY). |
+| docker start <container_id/name>  | Starts an **existing** stopped container.                                                                                    |
+| docker stop <container_id/name>   | Stops a **running** container.                                                                                               |
+| docker rm <container_id/name>     | Removes a **stopped** container.                                                                                             |
+| docker rmi <image_id/name>        | Removes a Docker image.                                                                                                      |
+
+System Commands 
+| Command                  | Purpose                                                                      |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| `docker stats`           | Live stream of container resource usage.                                     |
+| `docker system df`       | Show disk usage by Docker objects.                                           |
+| `docker system prune -f` | Remove **all** stopped containers, unused networks, images, and build cache. |
+
+docker network create mynetwork
+docker run -d -p 4442-4444:4442-4444 --net mynetwork --name selenium-hub selenium/hub
+docker run -d --net mynetwork -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-chrome
+
+docker run -d --net mynetwork -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-firefox
+
+http://localhost:4444/ui/#
+
+navigate to folder where docker-compose.yaml is present and then open cmd 
+docker-compose up
+docker-compose scale chrome=3

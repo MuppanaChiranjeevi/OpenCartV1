@@ -1,0 +1,14 @@
+pom.xml stands for Project Object Model.
+It's the configuration file used by Maven, a build automation tool for Java projects.
+
+dependencies
+Used to define external libraries (JARs) required by your project.
+Maven will automatically download these from the Maven Central Repository.y and include them in your build path.
+
+plugins
+Define how to compile, run, and build the project
+They perform specific tasks during the build process, such as:
+✅ Compiling code
+✅ Running tests
+✅ Packaging the project into a JAR/ZIP
+✅ Generating reports

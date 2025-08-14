@@ -10,7 +10,7 @@
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
-	    <version>4.33.0</version>
+	    <version>4.35.0</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
@@ -80,18 +80,26 @@
 	</dependency>
   </dependencies>
   <build>
-  <plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>3.5.2</version>
-      <configuration>
-        <suiteXmlFiles>
-          <suiteXmlFile>testng.xml</suiteXmlFile>
-        </suiteXmlFiles>
-      </configuration>
-    </plugin>
-  </plugins>
+	  <plugins>	    
+	        <!-- Compiler Plugin: Compiles Java source code -->
+		    <plugin>
+		      <groupId>org.apache.maven.plugins</groupId>
+		      <artifactId>maven-compiler-plugin</artifactId>
+		      <version>3.11.0</version>
+		    </plugin>
+		
+		    <!-- Surefire Plugin: Runs TestNG tests using master.xml -->
+		    <plugin>
+		      <groupId>org.apache.maven.plugins</groupId>
+		      <artifactId>maven-surefire-plugin</artifactId>
+		      <version>3.2.2</version>
+		      <configuration>
+		        <suiteXmlFiles>
+		          <suiteXmlFile>master.xml</suiteXmlFile>
+		        </suiteXmlFiles>
+		      </configuration>
+		    </plugin>
+	  </plugins>
   </build>
 
 </project>
