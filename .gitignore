@@ -1,5 +1,8 @@
 # Project exclude paths
 /test-output/
 /target/
-/logs/
+logs/
+automation.log
+*.log
 /reports/
+/screenshots/
