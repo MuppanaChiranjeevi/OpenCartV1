@@ -1,0 +1,177 @@
+1. Setup and Configuration
+
+		These commands are mostly used once per machine or repository.
+		
+		git config --global user.name "Your Name"
+		Sets your name globally (for all repos on your machine).
+		
+		git config --global user.email "you@example.com"
+		Sets your email globally. This appears in your commits.
+		
+		git config --list
+		Displays all Git configuration settings currently in effect.
+		
+		git init
+		Creates a new Git repository in the current folder (generates a .git directory).
+
+2. Getting Repositories
+
+		git clone <url>
+		Downloads a remote repository to your local machine.
+		Example: git clone https://github.com/user/project.git
+
+3. Recording Changes (Working Directory → Staging → Repository)
+
+		Git has three states:
+		
+		Working directory (your files now)
+		
+		Staging area (what will go into the next commit)
+		
+		Repository (permanent history)
+		
+		Viewing Changes:
+		
+		git status –> Shows modified, staged, or untracked files.
+		
+		git diff –> Shows line-by-line changes not yet staged.
+		
+		git diff --staged –> Shows line-by-line changes already staged.
+		
+		Adding Changes:
+		
+		git add <file> –> Stages a specific file.
+		
+		git add . –> Stages everything in the folder.
+		
+		Committing Changes:
+		
+		git commit -m "message" –> Saves staged changes with a commit message.
+		
+		git commit -am "message" –> Adds and commits all tracked files (skips git add for modified files).
+
+4. Viewing History
+
+		git log –> Shows the commit history.
+		
+		git log --oneline –> Condensed one-line history.
+		
+		git log --graph --oneline --all –> Shows a branch graph.
+		
+		git show <commit> –> Shows details of a specific commit.
+
+5. Branching and Merging
+
+		Branches let you work on features without disturbing main code.
+		
+		git branch – Lists branches.
+		
+		git branch <name> – Creates a new branch.
+		
+		git checkout <branch> – Switches to another branch.
+		
+		git checkout -b <branch> – Creates and switches to a new branch.
+		
+		git switch <branch> – A modern alternative to checkout (safer).
+		
+		git merge <branch> – Merges another branch into the current one.
+		
+		git branch -d <branch> – Deletes a branch (safe if merged).
+		
+		git branch -D <branch> – Force deletes a branch.
+
+6. Working with Remote Repositories
+
+		git remote -v –> Lists remotes (usually named origin).
+		
+		git remote add origin <url> –> Adds a remote repository.
+		
+		git fetch –> Downloads new commits from remote but doesn’t merge.
+		
+		git pull –> Downloads and merges remote changes into current branch.
+		
+		git push –> Uploads local commits to remote.
+		
+		git push -u origin <branch> –> Pushes and sets upstream tracking branch.
+
+7. Undoing Things (Careful Section!)
+
+		git restore <file> – Restores working directory file to last commit.
+		
+		git restore --staged <file> – Unstages a file (keeps changes in working directory).
+		
+		git reset --soft <commit> – Moves HEAD to earlier commit but keeps changes staged.
+		
+		git reset --mixed <commit> – Moves HEAD and unstages changes.
+		
+		git reset --hard <commit> – DANGER: Discards all changes permanently.
+		
+		git revert <commit> – Safely undoes a commit by creating a new commit that cancels it.
+
+8. Stashing (Temporary Shelves)
+
+		git stash – Saves uncommitted changes temporarily and cleans working directory.
+		
+		git stash pop – Restores stashed changes and removes them from stash list.
+		
+		git stash apply – Restores changes but keeps them in stash list.
+		
+		git stash list – Shows all stashed states.
+		
+		git stash drop – Removes a specific stash.
+
+9. Tagging
+
+		Tags are like bookmarks on commits (used for releases).
+		
+		git tag – Lists tags.
+		
+		git tag <name> – Creates a lightweight tag.
+		
+		git tag -a <name> -m "message" – Creates an annotated tag.
+		
+		git push origin <tag> – Pushes a tag to remote.
+		
+		git push origin --tags – Pushes all tags.
+
+10. Advanced / Useful Commands
+
+		git blame <file> – Shows who changed each line.
+		
+		git cherry-pick <commit> – Applies a single commit from another branch.
+		
+		git rebase <branch> – Rewrites history to apply commits on top of another branch.
+		
+		git reflog – Shows HEAD’s movement (lets you recover lost commits).
+		
+		git clean -fd – Removes untracked files and directories.
+		
+		git archive --format=zip HEAD > code.zip – Exports repo as a zip without .git.
+
+11. Aliases (Optional)
+
+		If you type certain commands often:
+		
+		git config --global alias.co checkout
+		
+		git config --global alias.br branch
+		
+		git config --global alias.st status
+
+
+
+Quick Workflow Recap
+
+		git clone <url> (get code)
+		
+		git branch feature-x (create branch)
+		
+		git checkout feature-x (switch branch)
+		
+		edit files
+		
+		git add .
+		
+		git commit -m "message"
+		
+		git push origin feature-x

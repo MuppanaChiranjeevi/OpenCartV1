@@ -1,0 +1,232 @@
+1. Basic Git Setup
+	git -v or git --version
+	
+	Shows the installed Git version.
+	
+	Useful to verify installation.
+	
+	git config --global user.name "MuppanaChiranjeevi"
+	
+	Sets your name globally for all repositories.
+	
+	This name will appear in commit history.
+	
+	git config --global user.email "chiranjeevimuppana982@gmail.com"
+	
+	Sets your email globally for commits.
+	
+	git config --global --list
+	
+	Displays all global configuration settings.
+
+2. Repository Initialization
+	git init
+	
+	Creates an empty Git repository or reinitializes an existing one (if .git folder already exists).
+	
+	git init -b main
+	
+	Initializes repository with main as the default branch instead of master.
+
+3. Checking Status & Cleaning Screen
+	git status
+	
+	Shows file changes:
+	
+	Untracked (not staged)
+	
+	Staged (ready to commit)
+	
+	Modified (tracked but not staged)
+	
+	cls (Windows) / clear (Mac/Linux)
+	
+	Clears terminal screen (not a Git command, just terminal housekeeping).
+
+4. Adding, Restoring, and Removing Files
+	git add <filename.ext>
+	
+	Stages a specific file for commit.
+	
+	git add .
+	
+	Stages all files in the directory (new + modified).
+	
+	git restore <filename.ext>
+	
+	Discards local changes to a file (reverts it back to last commit).
+	
+	git restore --staged <filename.ext>
+	
+	Removes a file from staging area but keeps changes in working directory.
+	
+	git rm --cached <filename.ext>
+	
+	Untracks a file (removes from index), but does not delete it locally.
+	
+	Often used to stop committing unwanted files (like .env).
+
+5. Viewing Changes
+	git diff
+	
+	Shows unstaged changes in working directory.
+	
+	git diff --staged
+	
+	Shows staged changes (what will be committed).
+
+6. Committing Changes
+	git commit -m "<message>"
+	
+	Commits staged changes with a message.
+	
+	git commit -a -m "<message>"
+	
+	Skips staging (git add) for tracked files and commits directly.
+	
+	Untracked files are NOT included.
+	
+	git log
+	
+	Shows commit history (with hashes, authors, timestamps, messages).
+
+	Press q to exit.
+
+7. Working with Remote Repositories
+	git remote add origin <URL>
+	
+	Links your local repository to a remote repo (usually GitHub).
+	
+	git push -u origin <branch>
+	
+	Pushes local branch to remote and sets it as upstream (so future git push works without specifying branch).
+	
+	After first push, you can just do git push.
+	
+	git pull origin <branch>
+	
+	Fetches and merges remote changes into current branch.
+	
+	-u sets upstream branch (like in push).
+
+8. Branching and Switching
+	git checkout -b <branch>
+	
+	or
+	
+	git switch -c <branch>
+	
+	Creates and switches to a new branch.
+	
+	git checkout <branch>
+	
+	or
+	
+	git switch <branch>
+	
+	Switches to an existing branch.
+	
+	git branch
+	
+	Lists all local branches.
+	
+	Marks current branch with *.
+	
+	git branch --all or git branch -a
+	
+	Lists local and remote branches.
+	
+	git branch -M main
+	
+	Renames current branch to main (forcefully if needed).
+	
+	git branch -d <branch>
+	
+	Deletes a local branch (only if it’s fully merged).
+	
+	git push origin --delete <branch>
+	
+	Deletes a remote branch.
+
+9. Tags
+	git tag
+	
+	Lists all tags in the repository.
+	
+	git tag -a <tagname> -m "message"
+	
+	Creates an annotated tag.
+	
+	git push origin <tagname>
+	
+	Pushes a tag to remote.
+
+10. Git Command Categories (from help output)
+	Start a working area
+	
+	clone – copy an existing repo into a new folder.
+	
+	init – create a new empty repo.
+	
+	Work on current changes
+	
+	add – stage files.
+	
+	mv – move or rename files.
+	
+	restore – discard or unstage changes.
+	
+	rm – delete files from index and disk.
+	
+Examine history and state
+	
+	bisect – binary search for bad commit.
+	
+	diff – compare changes.
+	
+	grep – search inside repo files.
+	
+	log – view commits.
+	
+	show – display objects like commits, tags, etc.
+	
+	status – view working directory status.
+	
+Grow and tweak history
+	
+	branch – manage branches.
+	
+	commit – record snapshots.
+	
+	merge – combine branches.
+	
+	rebase – reapply commits on another base.
+	
+	reset – move HEAD to a different commit.
+	
+	switch – change branches.
+	
+	tag – manage tags.
+	
+Collaborate
+	
+	fetch – download updates from remote without merging.
+	
+	pull – fetch + merge.
+	
+	push – upload commits to remote.
+
+11. Common GitHub Workflow Examples
+	Creating a new repo
+	echo "# MyFirstRepo" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/MuppanaChiranjeevi/MyFirstRepo.git
+	git push -u origin main
+
+	Pushing an existing repo
+	git remote add origin https://github.com/MuppanaChiranjeevi/MyFirstRepo.git
+	git branch -M main
+	git push -u origin main

@@ -1,0 +1,274 @@
+1. Git Setup and Configuration
+
+These are usually run once on a machine or per project:
+
+Set your identity (needed for commits):
+
+git config --global user.name "John Doe"
+git config --global user.email "john@example.com"
+
+
+View all configuration:
+
+git config --list
+
+
+Initialize a repository in current folder:
+
+git init
+
+
+(Creates a .git folder — makes your directory a repo)
+
+2. Getting Repositories
+
+Clone an existing repo:
+
+git clone https://github.com/user/project.git
+
+
+(Creates a folder with code + history)
+
+3. Recording Changes
+
+Git has three areas: Working Directory → Staging Area → Repository
+
+Checking what changed
+
+See file status:
+
+git status
+
+
+(Shows modified, staged, or untracked files)
+
+See line-by-line changes (not staged yet):
+
+git diff
+
+
+See staged changes:
+
+git diff --staged
+
+Adding changes
+
+Stage a file:
+
+git add file1.txt
+
+
+Stage everything:
+
+git add .
+
+Committing changes
+
+Commit staged changes with a message:
+
+git commit -m "Add login feature"
+
+
+Add + commit in one step (tracked files only):
+
+git commit -am "Fix bug in signup"
+
+4. Viewing History
+
+Full commit history:
+
+git log
+
+
+Condensed one-line history:
+
+git log --oneline
+
+
+Branch graph:
+
+git log --graph --oneline --all
+
+
+Details of a specific commit:
+
+git show 3e1ab42
+
+5. Branching and Merging
+
+Branches isolate work.
+
+List all branches:
+
+git branch
+
+
+Create a new branch:
+
+git branch feature-x
+
+
+Switch to branch:
+
+git checkout feature-x
+# OR modern:
+git switch feature-x
+
+
+Create and switch in one step:
+
+git checkout -b feature-x
+
+
+Merge another branch into current branch:
+
+git merge feature-x
+
+
+Delete a branch:
+
+git branch -d feature-x
+# Force delete if unmerged:
+git branch -D feature-x
+
+6. Working with Remotes
+
+See remotes:
+
+git remote -v
+
+
+Add a remote repository:
+
+git remote add origin https://github.com/user/project.git
+
+
+Download changes without merging:
+
+git fetch
+
+
+Download + merge into current branch:
+
+git pull
+
+
+Push commits to remote:
+
+git push
+
+
+Push and set upstream branch:
+
+git push -u origin main
+
+7. Undoing Changes
+
+Discard changes in working directory:
+
+git restore file1.txt
+
+
+Unstage file but keep changes:
+
+git restore --staged file1.txt
+
+
+Reset to previous commit (different levels):
+
+git reset --soft HEAD~1    # keep changes staged
+git reset --mixed HEAD~1   # keep changes unstaged
+git reset --hard HEAD~1    # discard changes completely (DANGER)
+
+
+Revert a commit (safe):
+
+git revert 3e1ab42
+
+
+(Creates a new commit that undoes that commit)
+
+8. Stashing Changes
+
+Stash saves unfinished work temporarily:
+
+Stash current changes:
+
+git stash
+
+
+Show stashes:
+
+git stash list
+
+
+Apply last stash and remove it:
+
+git stash pop
+
+
+Apply last stash but keep it:
+
+git stash apply
+
+
+Remove a specific stash:
+
+git stash drop stash@{1}
+
+9. Tagging (For Releases)
+
+Create a lightweight tag:
+
+git tag v1.0
+
+
+Create an annotated tag:
+
+git tag -a v1.0 -m "Release version 1.0"
+
+
+Push a tag:
+
+git push origin v1.0
+
+
+Push all tags:
+
+git push origin --tags
+
+10. Advanced Useful Commands
+
+Show who changed each line of a file:
+
+git blame file1.txt
+
+
+Apply a single commit from another branch:
+
+git cherry-pick 3e1ab42
+
+
+Reapply commits onto another branch (rewrite history):
+
+git rebase main
+
+
+Recover lost commits (log of HEAD moves):
+
+git reflog
+
+
+Remove untracked files:
+
+git clean -fd
+
+
+Export repo as zip:
+
+git archive --format=zip HEAD > code.zip
+
+11. Aliases for Convenience
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.st status
